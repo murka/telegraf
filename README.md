@@ -53,7 +53,7 @@ bot.command('hipster', Telegraf.reply('λ'))
 bot.launch()
 ```
 
-For additional bot examples see [`examples`](https://github.com/telegraf/telegraf/tree/master/docs/examples) folder.
+For additional bot examples see [`examples`](https://github.com/telegraf/telegraf/tree/3.38.0/docs/examples) folder.
 
 **Community bots:**
 
@@ -2144,11 +2144,11 @@ until the errors are fixed (the contents of the field for which you returned the
 
 #### Extra
 
-Telegram message options helper, [see examples](https://github.com/telegraf/telegraf/tree/develop/docs/examples/).
+Telegram message options helper, [see examples](https://github.com/telegraf/telegraf/tree/3.38.0/docs/examples/).
 
 #### Markup
 
-Telegram markup helper, [see examples](https://github.com/telegraf/telegraf/tree/develop/docs/examples/).
+Telegram markup helper, [see examples](https://github.com/telegraf/telegraf/tree/3.38.0/docs/examples/).
 
 #### Stage
 
@@ -2183,6 +2183,8 @@ bot.startPolling()
 ```
 
 Scenes related context props and functions:
+
+More documentation on Scenes and Stages, [see issue](https://github.com/telegraf/telegraf/issues/705).
 
 ```js
 bot.on('message', (ctx) => {
