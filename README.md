@@ -21,13 +21,13 @@ These accounts serve as an interface for code running somewhere on your server.
 #### Installation
 
 ```bash
-$ npm install telegraf --save
+$ npm install telegraf@3.38.0 --save
 ```
 
 or using yarn
 
 ```bash
-$ yarn add telegraf
+$ yarn add telegraf@3.38.0
 ```
 
 #### Example
